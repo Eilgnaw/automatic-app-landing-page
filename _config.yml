@@ -17,7 +17,8 @@ app_description                           : 开始收集你的 Amiibo
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
-
+github:
+  baseurl: https://cdn.jsdelivr.net/gh/Eilgnaw/automatic-app-landing-page@master/
 
 # Information About Yourself
 your_name                                 : Eilgnaw
