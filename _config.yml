@@ -36,16 +36,16 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  # - title                                 : GitHub Pages Jekyll Theme
-  #   description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
+  - title                                 : 导入数据
+    description                           : Umiibo可以自动识别到存放在 Umiibo 文件夹的 amiibo 数据并在校验后展示它.
   #   fontawesome_icon_name                 : magic
     
-  # - title                                 : iPhone Device Preview
-  #   description                           : Preview your app in the context of an iPhone device. Five different device colors included.
+  - title                                 : 点亮amiibo
+    description                           : 扫描已经拥有的 amiibo 可以在数据库中点亮并备份它.
   #   fontawesome_icon_name                 : mobile
 
-  # - title                                 : Video Support
-  #   description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
+  - title                                 : 还原 amiibo
+    description                           : 将已经拥有的 amiibo 数据写入空白 ntag215 卡片
   #   fontawesome_icon_name                 : play-circle
 
   # - title                                 : Automatic Icon and Metadata
