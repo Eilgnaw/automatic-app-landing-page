@@ -36,17 +36,20 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
+  # - title                                 : Automatic Icon and Metadata
+  #   description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
+
   - title                                 : 导入数据
-    description                           : Umiibo可以自动识别到存放在 Umiibo 文件夹的 amiibo 数据并在校验后展示它.
-  #   fontawesome_icon_name                 : magic
+    description                           : 将数据文件分享至 Umiibo 以导入数据.
+    fontawesome_icon_name                 : folder-open 
     
-  - title                                 : 点亮amiibo
+  - title                                 : 点亮 amiibo
     description                           : 扫描已经拥有的 amiibo 可以在数据库中点亮并备份它.
-  #   fontawesome_icon_name                 : mobile
+    fontawesome_icon_name                 : magic
 
   - title                                 : 还原 amiibo
     description                           : 将已经拥有的 amiibo 数据写入空白 ntag215 卡片
-  #   fontawesome_icon_name                 : play-circle
+    fontawesome_icon_name                 : file
 
   # - title                                 : Automatic Icon and Metadata
   #   description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
