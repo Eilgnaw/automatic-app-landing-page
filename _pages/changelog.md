@@ -3,7 +3,7 @@ layout: page
 title: 更新日志
 include_in_header: true
 ---
-### `最新版本(审核中)`
+### `最新版本`
 # **版本 1.0.1**
 
 #### 新功能
