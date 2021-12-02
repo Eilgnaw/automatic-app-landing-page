@@ -10,26 +10,18 @@ include_in_header: true
 - 请查看相关视频[苹果手机使用Umiibo app 自制amiibo](https://www.bilibili.com/video/BV1vg411N7j5#reply93953633648)
 
 #### 为什么导入数据后 APP 内无显示?
-- 请查看相关视频[苹果手机使用Umiibo app 自制amiibo](https://www.bilibili.com/video/BV1vg411N7j5#reply93953633648)
+- 一般这种情况是由于导入的数据文件有问题,比较常见于动森第五弹 amiibo,如需要准确数据请从 APP 内点击进群获取.
 
-#### 怎么导入数据文件?
-- 请查看相关视频[苹果手机使用Umiibo app 自制amiibo](https://www.bilibili.com/video/BV1vg411N7j5#reply93953633648)
+#### 为什么扫描已有 amiibo 后 APP 内无显示?
+- 一般这种情况是由于amiibo卡内的数据不正确,比较常见于动森第五弹 amiibo,但不影响游戏内使用.
 
-#### 怎么导入数据文件?
-- 请查看相关视频[苹果手机使用Umiibo app 自制amiibo](https://www.bilibili.com/video/BV1vg411N7j5#reply93953633648)
+#### 为什么注入灵魂成功后无法使用?
+- 注入灵魂时请以顶部进度条走完为成功标志,如遇进度条停住,可以调整位置/距离后重新注入.
+- 如果遇到多次尝试后均无法注入成功请从 APP 内点击进群咨询,目前发现这种情况常见于 iPhone12 上.
 
-#### 怎么导入数据文件?
-- 请查看相关视频[苹果手机使用Umiibo app 自制amiibo](https://www.bilibili.com/video/BV1vg411N7j5#reply93953633648)
+#### 怎么删除已有数据?
+- 可以长按 数据库 下图标进行清空数据.
 
-#### 怎么导入数据文件?
-- 请查看相关视频[苹果手机使用Umiibo app 自制amiibo](https://www.bilibili.com/video/BV1vg411N7j5#reply93953633648)
-
-#### 怎么导入数据文件?
-- 请查看相关视频[苹果手机使用Umiibo app 自制amiibo](https://www.bilibili.com/video/BV1vg411N7j5#reply93953633648)
-
-#### 怎么导入数据文件?
-- 请查看相关视频[苹果手机使用Umiibo app 自制amiibo](https://www.bilibili.com/video/BV1vg411N7j5#reply93953633648)
-
-#### 怎么导入数据文件?
-- 请查看相关视频[苹果手机使用Umiibo app 自制amiibo](https://www.bilibili.com/video/BV1vg411N7j5#reply93953633648)
+#### 为什么APP 内 amiibo 图片是灰色的?
+- 为了方便查看已经拥有哪些 amiibo,所以导入数据后默认图片为灰色,可以点击首页右上角魔法棒扫描 amiibo 以点亮图片.
 <br>
