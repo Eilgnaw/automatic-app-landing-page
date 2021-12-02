@@ -3,11 +3,9 @@ layout: page
 title: 常见问题
 include_in_header: true
 ---
-<br>
-### **常见问题**
-
-#### 怎么导入数据文件?
-- 请查看相关视频[苹果手机使用Umiibo app 自制amiibo](https://www.bilibili.com/video/BV1vg411N7j5#reply93953633648)
+#### 怎么导入数据文件并制作 amiibo?
+- [导入数据](https://www.bilibili.com/video/BV1vg411N7j5#reply93953633648)
+- [amiibo 制作]https://www.bilibili.com/video/BV1sg411A7By
 
 #### 为什么导入数据后 APP 内无显示?
 - 一般这种情况是由于导入的数据文件有问题,比较常见于动森第五弹 amiibo,如需要准确数据请从 APP 内点击进群获取.
@@ -22,6 +20,6 @@ include_in_header: true
 #### 怎么删除已有数据?
 - 可以长按 数据库 下图标进行清空数据.
 
-#### 为什么APP 内 amiibo 图片是灰色的?
+#### 为什么 APP 内 amiibo 图片是灰色的?
 - 为了方便查看已经拥有哪些 amiibo,所以导入数据后默认图片为灰色,可以点击首页右上角魔法棒扫描 amiibo 以点亮图片.
 <br>
