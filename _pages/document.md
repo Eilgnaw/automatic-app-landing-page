@@ -4,8 +4,8 @@ title: 常见问题
 include_in_header: true
 ---
 #### 怎么导入数据文件并制作 amiibo?
-- [导入数据](https://www.bilibili.com/video/BV1vg411N7j5#reply93953633648)
-- [amiibo 制作]https://www.bilibili.com/video/BV1sg411A7By
+- [导入数据](https://www.bilibili.com/video/BV1vg411N7j5)
+- [amiibo 制作](https://www.bilibili.com/video/BV1sg411A7By)
 
 #### 为什么导入数据后 APP 内无显示?
 - 一般这种情况是由于导入的数据文件有问题,比较常见于动森第五弹 amiibo,如需要准确数据请从 APP 内点击进群获取.
