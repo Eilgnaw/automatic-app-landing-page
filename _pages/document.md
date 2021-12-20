@@ -4,8 +4,6 @@ title: 常见问题
 include_in_header: true
 ---
 
-## 加载不出图片为 cdn 异常(仅中国大陆)导致,对写入功能无影响,可根据名字搜索写入.待修复.
-
 #### 怎么导入数据文件并制作 amiibo?
 -  Umiibo APP 不提供数据.如有需要可向卖白卡的商家或亲友获取数据文件.
 - [导入数据](https://www.bilibili.com/video/BV1vg411N7j5)
