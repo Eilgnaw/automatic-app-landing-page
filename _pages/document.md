@@ -3,7 +3,7 @@ layout: page
 title: 常见问题
 include_in_header: true
 ---
-
+### 由于不可抗拒的因素 app 内图片目前是从日本服务器加载,会出现加载缓慢的现象,但不影响注入操作,如有条件可以尝试使用代理.
 #### 怎么导入数据文件并制作 amiibo?
 -  Umiibo APP 不提供数据.如有需要可向卖白卡的商家或亲友获取数据文件.
 - [导入数据](https://www.bilibili.com/video/BV1vg411N7j5)
