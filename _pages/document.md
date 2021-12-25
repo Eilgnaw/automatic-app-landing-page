@@ -9,8 +9,9 @@ include_in_header: true
 
 #### 怎么导入数据文件并制作 amiibo?
 - Umiibo APP 不提供数据.如有需要可向卖白卡的商家或贴吧获取数据,其中动森第五弹需要使用amiibo卡复制出的数据才能导入.
+- 获取数据后可直接分享至 Umiibo 进行导入,具体操作可以查看下方视频
 - [导入数据视频教程](https://www.bilibili.com/video/BV1vg411N7j5)或 B 站搜索 Umiibo
-- [amiibo 制作](https://www.bilibili.com/video/BV1sg411A7By)
+- [amiibo 制作](https://www.bilibili.com/video/BV1HL411E7uV)
 
 #### 动森第五弹或其他数据导入后无内容?
 - 您使用的动森第五弹数据可能是从游戏解包提取的,请更换成从amiibo卡复制出的数据进行导入.
