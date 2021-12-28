@@ -10,14 +10,16 @@ include_in_header: true
 
 ### 已知问题:在 iOS14 下注入界面返回按钮会丢失,如有遇到请进群联系我暂时使用测试版注入.
 
+#### Contact us on the Telegram
+- [Umiibo Group](https://t.me/Umiibo)
+
 #### 怎么导入数据文件并制作 amiibo?
-- Umiibo APP 不提供数据.如有需要可向卖白卡的商家或贴吧获取数据,其中动森第五弹需要使用amiibo卡复制出的数据才能导入.
-- 获取数据后可直接分享至 Umiibo 进行导入,具体操作可以查看下方视频
+- Umiibo APP 不提供数据.如有需要可向卖白卡的商家或网络渠道获取数据.
 - [导入数据视频教程](https://www.bilibili.com/video/BV1vg411N7j5)或 B 站搜索 Umiibo
 - [amiibo 制作](https://www.bilibili.com/video/BV1HL411E7uV)
 
 #### 动森第五弹或其他数据导入后无内容?
-- 您使用的动森第五弹数据可能是从游戏解包提取的,请更换成从amiibo卡复制出的数据进行导入.
+- 您使用的动森第五弹数据是错误版本,请更换成正确版本进行导入或点击左上角加群查看群公告.
 - 当导入数据时APP如果处在在amiibo列表界面,导入成功后将不会自动刷新界面,请返回首页查看新导入的数据.
 
 #### 导入后图片无法加载?
