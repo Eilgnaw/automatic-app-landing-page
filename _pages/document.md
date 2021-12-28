@@ -10,8 +10,8 @@ include_in_header: true
 
 ### 已知问题:在 iOS14 下注入界面返回按钮会丢失,如有遇到请进群联系我暂时使用测试版注入.
 
-#### Contact us on the Telegram
-- [Umiibo Group](https://t.me/Umiibo)
+#### Contact us on Telegram
+- [Join Umiibo group](https://t.me/Umiibo)
 
 #### 怎么导入数据文件并制作 amiibo?
 - Umiibo APP 不提供数据.如有需要可向卖白卡的商家或网络渠道获取数据.
