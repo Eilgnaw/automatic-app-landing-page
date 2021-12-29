@@ -7,9 +7,6 @@ include_in_header: true
 ### 请仔细阅读以下内容,如果解决不了您的问题请加群沟通
 ### 请仔细阅读以下内容,如果解决不了您的问题请加群沟通
 
-
-### 已知问题:在 iOS14 下注入界面返回按钮会丢失,如有遇到请进群联系我暂时使用测试版注入.
-
 #### Contact us on Telegram
 - [Join Umiibo group](https://t.me/Umiibo)
 
