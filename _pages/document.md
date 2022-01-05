@@ -10,6 +10,9 @@ include_in_header: true
 #### Contact us on Telegram
 - [Join Umiibo group](https://t.me/Umiibo)
 
+#### QQ
+- [加入QQ群](https://jq.qq.com/?_wv=1027&k=dDMCn5bE)
+
 #### 怎么导入数据文件并制作 amiibo?
 - Umiibo APP 不提供数据.如有需要可向卖白卡的商家或网络渠道获取数据.
 - [导入数据视频教程](https://www.bilibili.com/video/BV1vg411N7j5)或 B 站搜索 Umiibo
