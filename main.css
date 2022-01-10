@@ -6,7 +6,7 @@
 
 ;
 $header-image: "{{ site.cover_image }}";
-$device-color: "https://images.weserv.nl/?url=https://cdn.jsdelivr.net/gh/Eilgnaw/automatic-app-landing-page@master/assets/{{ site.device_color }}.png";
+$device-color: "https://cdn.jsdelivr.net/gh/Eilgnaw/automatic-app-landing-page@master/assets/{{ site.device_color }}.png";
 $accent-color: {
     {
         site.link_color
