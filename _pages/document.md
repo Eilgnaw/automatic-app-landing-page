@@ -14,6 +14,11 @@ include_in_header: true
 - [导入数据视频教程](https://www.bilibili.com/video/BV1vg411N7j5)或 B 站搜索 Umiibo
 - [amiibo 制作](https://www.bilibili.com/video/BV1HL411E7uV)
 
+#### 为什么塞尔达分类下只有 19 个 amiibo?
+- 其余可以在旷野之息使用的 amiibo 请前往 大乱斗 分类下查找
+- 另外塞尔达分类里其中一个为塞尔达天空之剑的 amiibo, 不需要可以不做.
+
+
 #### 动森第五弹或其他数据导入后无内容?
 - 您使用的动森第五弹数据是错误版本,请更换成正确版本进行导入或点击APP首页左上角加群查看群公告.
 - 当导入数据时APP如果处在在amiibo列表界面,导入成功后将不会自动刷新界面,请返回首页查看新导入的数据.
