@@ -11,8 +11,8 @@ include_in_header: true
 
 #### 怎么导入数据文件并制作 amiibo?
 - Umiibo APP 不提供数据.如有需要可向卖白卡的商家或网络渠道获取数据.
-- [导入数据视频教程](https://www.bilibili.com/video/BV1vg411N7j5)或 B 站搜索 Umiibo
-- [amiibo 制作](https://www.bilibili.com/video/BV1HL411E7uV)
+- [点击查看图文教程](https://www.bilibili.com/read/cv14944601)
+- [点击查看视频教程](https://www.bilibili.com/video/BV1vg411N7j5)
 
 #### 为什么塞尔达分类下只有 19 个 amiibo?
 - 其余可以在旷野之息使用的 amiibo 请前往 大乱斗 分类下查找
