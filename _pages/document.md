@@ -3,15 +3,11 @@ layout: page
 title: 常见问题
 include_in_header: true
 ---
-### 请仔细阅读以下内容,如果解决不了您的问题请加群沟通
-### 请仔细阅读以下内容,如果解决不了您的问题请加群沟通
-### 请仔细阅读以下内容,如果解决不了您的问题请加群沟通
+### [English](https://medium.com/@wzqwzq666/how-to-make-amiibo-with-iphone-in-2022-f0aca6d96b91)
 
-#### Contact us on Telegram
-- [Join Umiibo group](https://t.me/Umiibo)
-
-#### QQ
-- [加入QQ群](https://jq.qq.com/?_wv=1027&k=dDMCn5bE)
+### 请仔细阅读以下内容,如果解决不了您的问题请加群沟通
+### 请仔细阅读以下内容,如果解决不了您的问题请加群沟通
+### 请仔细阅读以下内容,如果解决不了您的问题请加群沟通
 
 #### 怎么导入数据文件并制作 amiibo?
 - Umiibo APP 不提供数据.如有需要可向卖白卡的商家或网络渠道获取数据.
