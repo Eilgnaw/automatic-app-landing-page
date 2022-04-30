@@ -14,7 +14,7 @@ include_in_header: true
 - [点击查看图文教程](https://www.bilibili.com/read/cv14944601)
 - [点击查看视频教程](https://www.bilibili.com/video/BV1vg411N7j5)
 
-#### 导入完成后为什么塞尔达(或其他游戏)分类下只有没有想要 amiibo?
+#### 导入完成后为什么塞尔达(或其他游戏)分类下没有想要 amiibo?
 - 如在对应分类下看不到所需 amiibo,请前往 大乱斗 分类下查找
 
 
