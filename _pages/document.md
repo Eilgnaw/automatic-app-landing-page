@@ -9,7 +9,7 @@ include_in_header: true
 ## 特别说明
 - 每张ntag215卡只能做一个 amiibo,不可以重复擦写.
 - 塞尔达旷野之息可用的 amiibo 其中有 6 个在 大乱斗(Super Smash Bros.)分类下.
-- 马车8 卡比等游戏没有自己专属的 amiibo,请自行搜索后在其他分类下找到可用的 amiibo
+- 马车8 没有自己专属的 amiibo,请自行搜索后在其他分类下找到可用的 amiibo
 
 #### 怎么导入数据文件并制作 amiibo?
 - Umiibo APP 不提供数据.如有需要可向卖白卡的商家或网络渠道获取数据.
