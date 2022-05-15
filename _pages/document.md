@@ -7,11 +7,12 @@ include_in_header: true
 
 ## 为了更好的使用 APP 请务必仔细阅读以下内容,如果解决不了您的问题请通过微博沟通
 ## 重要说明
-- Umiibo 不提供数据.如有需要可向卖 ntag215 卡的某宝商家或网络渠道获取.
-- 每张ntag215卡只能做一个 amiibo,不可以重复擦写.
-- 塞尔达旷野之息可用的 amiibo 其中有 6 个在 大乱斗(Super Smash Bros.)分类下.
-- 马车8 没有自己专属的 amiibo,请自行搜索后在其他分类下找到可用的 amiibo
+#### Umiibo 不提供数据.如有需要可向卖 ntag215 卡的某宝商家或网络渠道获取.
+#### 每张ntag215卡只能做一个 amiibo,不可以重复擦写.
+#### 塞尔达旷野之息可用的 amiibo 其中有 6 个在 大乱斗(Super Smash Bros.)分类下.
+#### 马车8 没有自己专属的 amiibo,请自行搜索后在其他分类下找到可用的 amiibo
 
+## 常见问题 - 务必认真看一遍以避免不必要的麻烦
 #### 怎么导入数据文件并制作 amiibo?
 
 - [点击查看图文教程](https://www.bilibili.com/read/cv14944601)
