@@ -4,7 +4,6 @@ title: 常见问题
 include_in_header: true
 ---
 ### [English](https://medium.com/@wzqwzq666/how-to-make-amiibo-with-iphone-in-2022-f0aca6d96b91)
-### [QQ 频道](https://qun.qq.com/qqweb/qunpro/share?inviteCode=1W7Mrik)
 
 ## 为了更好的使用 APP 请务必仔细阅读以下内容,如果解决不了您的问题请通过微博沟通
 ## 重要说明
