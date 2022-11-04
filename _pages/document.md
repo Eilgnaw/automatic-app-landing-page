@@ -5,6 +5,8 @@ include_in_header: true
 ---
 ### [English](https://medium.com/@wzqwzq666/how-to-make-amiibo-with-iphone-in-2022-f0aca6d96b91)
 
+### 斯普拉遁名牌制作 [鱿牌APP](https://splatoon.umiibo.app/)
+
 ## 为了更好的使用 APP 请务必仔细阅读以下内容,如果解决不了您的问题请通过微博沟通
 ## 重要说明
 #### Umiibo 不提供数据.如有需要可向卖 ntag215 卡的某宝商家 贴吧 亲友 以及搜索引擎获取.
