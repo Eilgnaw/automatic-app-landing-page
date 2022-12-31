@@ -6,10 +6,9 @@
 
     },
     {
-        "name": "Umiibo",
-        "subTitle": "收集你的 amiibo",
-        "imgUrl": "https://image.umiibo.app/assets/Icon.png",
-        "url": "https://image.umiibo.app"
-
+        "name": "鲸落文案",
+        "subTitle": "彩虹屁/朋友圈文案/疯狂星期四文案等",
+        "imgUrl": "https://qiniu.xshwy.cn/appicons/jingluo.png",
+        "url": "https://apps.apple.com/cn/app/id1630982566"
     }
 ]
