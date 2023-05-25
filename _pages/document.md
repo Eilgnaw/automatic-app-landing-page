@@ -5,8 +5,6 @@ include_in_header: true
 ---
 ### [English](https://medium.com/@wzqwzq666/how-to-make-amiibo-with-iphone-in-2022-f0aca6d96b91)
 
-### [王国之泪交流QQ群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-4jzSCHC56XP3uzNy_ObYC9xxSzRpdrE&authKey=raj6nFX393o%2F86QhQ1laKIhF70MTvxQJ6Mbf6OBRScLAJ4N7wODkDXTI4dMfVwEF&noverify=0&group_code=82287168)
-
 ### 斯普拉遁名牌制作 [鱿牌APP](https://splatoon.umiibo.app/)
 
 ## 为了更好的使用 APP 请务必仔细阅读以下内容,如果解决不了您的问题请通过 "不想写作业" 微信公众号联系解决.
