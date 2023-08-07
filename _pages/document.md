@@ -5,13 +5,14 @@ include_in_header: true
 ---
 ### [English](https://medium.com/@wzqwzq666/how-to-make-amiibo-with-iphone-in-2022-f0aca6d96b91)
 
-### 斯普拉遁名牌制作 [鱿牌APP](https://splatoon.umiibo.app/)
+### 斯普拉遁名牌及动森人物卡制作 [鱿牌APP](https://splatoon.umiibo.app/)
 
 ## 为了更好的使用 APP 请务必仔细阅读以下内容,如果解决不了您的问题请通过 "不想写作业" 微信公众号联系解决.
 #### 怎么导入数据文件并制作 amiibo?
 - 导入前请先点击 APP 首页右上角"更新基础数据"
 - [点击查看图文教程](https://www.bilibili.com/read/cv14944601)
 - [点击查看视频教程](https://www.bilibili.com/video/BV1vg411N7j5)
+- [amiibo钥匙扣视频教程](https://www.bilibili.com/video/BV1Rz4y1p7qR)
 - 通过其他渠道(如谷歌网盘,微信,其他网盘)获取amiibo 数据也可以使用系统自带的分享功能分享至 umiibo 进行导入.
 
 #### 数据导入后无内容?
