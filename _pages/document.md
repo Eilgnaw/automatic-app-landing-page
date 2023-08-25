@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 常见问题
+title: Document
 include_in_header: true
 ---
 ### [English](https://medium.com/@wzqwzq666/how-to-make-amiibo-with-iphone-in-2022-f0aca6d96b91)
