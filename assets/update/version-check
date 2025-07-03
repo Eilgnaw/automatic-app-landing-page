@@ -1,5 +1,5 @@
  {
-     "latest_version": 11,
+     "latest_version": 10,
      "min_supported_version": 9,
      "update_description": "Add new amiibo",
      "force_update": false,

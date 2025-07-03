@@ -1,6 +1,6 @@
 {
     "config_type": "remote",
-    "current_version": 11,
+    "current_version": 10,
     "min_supported_version": 9,
     "last_updated": "2024-01-15T10:30:00Z",
     "migrations": [{
@@ -13,12 +13,12 @@
                     "operations": [{
                         "operation_type": "insert_game",
                         "data": {
-                            "id": "53",
-                            "name": "街头霸王6测试版",
+                            "id": "9999",
+                            "name": "Umiibo",
                             "image": "",
                             "note": "保存并加载服装、颜色和按钮设置",
                             "remark": "测试数据",
-                            "ename": "Street Fighter 6 Test",
+                            "ename": "Umiibo",
                             "top": 1000
                         }
                     }]
@@ -29,15 +29,15 @@
                     "operations": [{
                         "operation_type": "insert_amiibo",
                         "data": {
-                            "id": "010b000004a50902",
-                            "name": "Tulin - TotK",
+                            "id": "0000000000008888",
+                            "name": "test amiibo",
                             "amiiboSeries": "Tears of the Kingdom",
                             "gameSeries": "Tears of the Kingdom",
                             "type": "figure",
                             "image": "1",
                             "notes": "1",
                             "scaned": 0,
-                            "cname": "丘栗",
+                            "cname": "test",
                             "haved": 0,
                             "updateTime": "2025-06-05"
                         }
@@ -49,8 +49,8 @@
                     "operations": [{
                         "operation_type": "insert_binding",
                         "data": {
-                            "gameId": 51,
-                            "amiiboId": "totk000001aa1d02"
+                            "gameId": 9999,
+                            "amiiboId": "0000000000008888"
                         }
                     }]
                 }
