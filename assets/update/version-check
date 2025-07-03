@@ -1,0 +1,7 @@
+ {
+     "latest_version": 11,
+     "min_supported_version": 9,
+     "update_description": "Add new amiibo",
+     "force_update": false,
+     "release_date": "2025-07-03"
+ }

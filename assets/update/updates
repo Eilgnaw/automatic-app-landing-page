@@ -1,0 +1,127 @@
+{
+    "config_type": "remote",
+    "current_version": 11,
+    "min_supported_version": 9,
+    "last_updated": "2024-01-15T10:30:00Z",
+    "migrations": [{
+            "from_version": 9,
+            "to_version": 10,
+            "description": "新增《塞尔达传说：王国之泪》相关 Amiibo 数据",
+            "phases": [{
+                    "phase_name": "games",
+                    "phase_order": 1,
+                    "operations": [{
+                        "operation_type": "insert_game",
+                        "data": {
+                            "id": "53",
+                            "name": "街头霸王6测试版",
+                            "image": "",
+                            "note": "保存并加载服装、颜色和按钮设置",
+                            "remark": "测试数据",
+                            "ename": "Street Fighter 6 Test",
+                            "top": 1000
+                        }
+                    }]
+                },
+                {
+                    "phase_name": "amiibo",
+                    "phase_order": 2,
+                    "operations": [{
+                        "operation_type": "insert_amiibo",
+                        "data": {
+                            "id": "010b000004a50902",
+                            "name": "Tulin - TotK",
+                            "amiiboSeries": "Tears of the Kingdom",
+                            "gameSeries": "Tears of the Kingdom",
+                            "type": "figure",
+                            "image": "1",
+                            "notes": "1",
+                            "scaned": 0,
+                            "cname": "丘栗",
+                            "haved": 0,
+                            "updateTime": "2025-06-05"
+                        }
+                    }]
+                },
+                {
+                    "phase_name": "bindings",
+                    "phase_order": 3,
+                    "operations": [{
+                        "operation_type": "insert_binding",
+                        "data": {
+                            "gameId": 51,
+                            "amiiboId": "totk000001aa1d02"
+                        }
+                    }]
+                }
+            ]
+        },
+        {
+            "from_version": 22,
+            "to_version": 23,
+            "description": "test",
+            "phases": []
+        },
+        {
+            "from_version": 23,
+            "to_version": 24,
+            "description": "test",
+            "phases": [{
+                    "phase_name": "games",
+                    "phase_order": 1,
+                    "operations": [{
+                        "operation_type": "insert_game",
+                        "data": {
+                            "id": "53",
+                            "name": "街头霸王6测试版",
+                            "image": "",
+                            "note": "保存并加载服装、颜色和按钮设置",
+                            "remark": "测试数据",
+                            "ename": "Street Fighter 6 Test",
+                            "top": 1000
+                        }
+                    }]
+                },
+                {
+                    "phase_name": "amiibo",
+                    "phase_order": 2,
+                    "operations": [{
+                        "operation_type": "insert_amiibo",
+                        "data": {
+                            "id": "010b000004a50902",
+                            "name": "Tulin1",
+                            "amiiboSeries": "Tears of the Kingdom",
+                            "gameSeries": "Tears of the Kingdom",
+                            "type": "figure",
+                            "image": "1",
+                            "notes": "1",
+                            "scaned": 0,
+                            "cname": "丘栗1",
+                            "haved": 0,
+                            "updateTime": "2025-06-05"
+                        }
+                    }]
+                },
+                {
+                    "phase_name": "bindings",
+                    "phase_order": 3,
+                    "operations": [{
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 51,
+                                "amiiboId": "010b000004a50902"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 51,
+                                "amiiboId": "010b000004a50902"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
