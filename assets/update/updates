@@ -1,11 +1,11 @@
 {
     "config_type": "remote",
-    "current_version": 10,
-    "min_supported_version": 9,
-    "last_updated": "2024-01-15T10:30:00Z",
+    "current_version": 11,
+    "min_supported_version": 10,
+    "last_updated": "2025-07-17T10:30:00Z",
     "migrations": [{
-            "from_version": 9,
-            "to_version": 10,
+            "from_version": 10,
+            "to_version": 11,
             "description": "新增《塞尔达传说：王国之泪》相关 Amiibo 数据",
             "phases": [{
                     "phase_name": "games",
@@ -13,12 +13,12 @@
                     "operations": [{
                         "operation_type": "insert_game",
                         "data": {
-                            "id": "9999",
-                            "name": "Umiibo",
+                            "id": "54",
+                            "name": "咚奇刚蕉力全开",
                             "image": "",
-                            "note": "保存并加载服装、颜色和按钮设置",
-                            "remark": "测试数据",
-                            "ename": "Umiibo",
+                            "note": "Unlock Pauline's Diva Dress early",
+                            "remark": "游戏",
+                            "ename": "Donkey Kong Bananza",
                             "top": 1000
                         }
                     }]
@@ -29,17 +29,17 @@
                     "operations": [{
                         "operation_type": "insert_amiibo",
                         "data": {
-                            "id": "0000000000008888",
-                            "name": "test amiibo",
-                            "amiiboSeries": "Tears of the Kingdom",
-                            "gameSeries": "Tears of the Kingdom",
+                            "id": "00080100042f1a02",
+                            "name": "Donkey Kong & Pauline",
+                            "amiiboSeries": "Donkey Kong series",
+                            "gameSeries": "Donkey Kong series",
                             "type": "figure",
                             "image": "1",
                             "notes": "1",
                             "scaned": 0,
-                            "cname": "test",
+                            "cname": "咚奇刚&宝琳",
                             "haved": 0,
-                            "updateTime": "2025-06-05"
+                            "updateTime": "2025-07-17"
                         }
                     }]
                 },
@@ -49,77 +49,10 @@
                     "operations": [{
                         "operation_type": "insert_binding",
                         "data": {
-                            "gameId": 9999,
-                            "amiiboId": "0000000000008888"
+                            "gameId": 54,
+                            "amiiboId": "00080100042f1a02"
                         }
                     }]
-                }
-            ]
-        },
-        {
-            "from_version": 22,
-            "to_version": 23,
-            "description": "test",
-            "phases": []
-        },
-        {
-            "from_version": 23,
-            "to_version": 24,
-            "description": "test",
-            "phases": [{
-                    "phase_name": "games",
-                    "phase_order": 1,
-                    "operations": [{
-                        "operation_type": "insert_game",
-                        "data": {
-                            "id": "53",
-                            "name": "街头霸王6测试版",
-                            "image": "",
-                            "note": "保存并加载服装、颜色和按钮设置",
-                            "remark": "测试数据",
-                            "ename": "Street Fighter 6 Test",
-                            "top": 1000
-                        }
-                    }]
-                },
-                {
-                    "phase_name": "amiibo",
-                    "phase_order": 2,
-                    "operations": [{
-                        "operation_type": "insert_amiibo",
-                        "data": {
-                            "id": "010b000004a50902",
-                            "name": "Tulin1",
-                            "amiiboSeries": "Tears of the Kingdom",
-                            "gameSeries": "Tears of the Kingdom",
-                            "type": "figure",
-                            "image": "1",
-                            "notes": "1",
-                            "scaned": 0,
-                            "cname": "丘栗1",
-                            "haved": 0,
-                            "updateTime": "2025-06-05"
-                        }
-                    }]
-                },
-                {
-                    "phase_name": "bindings",
-                    "phase_order": 3,
-                    "operations": [{
-                            "operation_type": "insert_binding",
-                            "data": {
-                                "gameId": 51,
-                                "amiiboId": "010b000004a50902"
-                            }
-                        },
-                        {
-                            "operation_type": "insert_binding",
-                            "data": {
-                                "gameId": 51,
-                                "amiiboId": "010b000004a50902"
-                            }
-                        }
-                    ]
                 }
             ]
         }
