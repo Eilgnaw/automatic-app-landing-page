@@ -8,52 +8,59 @@
             "from_version": 10,
             "to_version": 11,
             "description": "新增《塞尔达传说：王国之泪》相关 Amiibo 数据",
-            "phases": [{
+            "phases": [
+                {
                     "phase_name": "games",
                     "phase_order": 1,
-                    "operations": [{
-                        "operation_type": "insert_game",
-                        "data": {
-                            "id": "54",
-                            "name": "咚奇刚蕉力全开",
-                            "image": "",
-                            "note": "Unlock Pauline's Diva Dress early",
-                            "remark": "游戏",
-                            "ename": "Donkey Kong Bananza",
-                            "top": 1000
+                    "operations": [
+                        {
+                            "operation_type": "insert_game",
+                            "data": {
+                                "id": "54",
+                                "name": "咚奇刚蕉力全开",
+                                "image": "",
+                                "note": "Unlock Pauline's Diva Dress early",
+                                "remark": "游戏",
+                                "ename": "Donkey Kong Bananza",
+                                "top": 1000
+                            }
                         }
-                    }]
+                    ]
                 },
                 {
                     "phase_name": "amiibo",
                     "phase_order": 2,
-                    "operations": [{
-                        "operation_type": "insert_amiibo",
-                        "data": {
-                            "id": "00080100042f1a02",
-                            "name": "Donkey Kong & Pauline",
-                            "amiiboSeries": "Donkey Kong series",
-                            "gameSeries": "Donkey Kong series",
-                            "type": "figure",
-                            "image": "1",
-                            "notes": "1",
-                            "scaned": 0,
-                            "cname": "咚奇刚&宝琳",
-                            "haved": 0,
-                            "updateTime": "2025-07-17"
+                    "operations": [
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "00080100042f1a02",
+                                "name": "Donkey Kong & Pauline",
+                                "amiiboSeries": "Donkey Kong series",
+                                "gameSeries": "Donkey Kong series",
+                                "type": "figure",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "咚奇刚&宝琳",
+                                "haved": 0,
+                                "updateTime": "2025-07-17"
+                            }
                         }
-                    }]
+                    ]
                 },
                 {
                     "phase_name": "bindings",
                     "phase_order": 3,
-                    "operations": [{
-                        "operation_type": "insert_binding",
-                        "data": {
-                            "gameId": 54,
-                            "amiiboId": "00080100042f1a02"
+                    "operations": [
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 54,
+                                "amiiboId": "00080100042f1a02"
+                            }
                         }
-                    }]
+                    ]
                 }
             ]
         },
@@ -65,74 +72,80 @@
                 {
                     "phase_name": "games",
                     "phase_order": 1,
-                    "operations": [{
-                        "operation_type": "insert_game",
-                        "data": {
-                            "id": "55",
-                            "name": "密特罗德究极4 穿越未知",
-                            "image": "",
-                            "note": "Unlock ",
-                            "remark": "游戏",
-                            "ename": "Metroid Prime 4 Beyond",
-                            "top": 1000
+                    "operations": [
+                        {
+                            "operation_type": "insert_game",
+                            "data": {
+                                "id": "55",
+                                "name": "密特罗德究极4 穿越未知",
+                                "image": "",
+                                "note": "Unlock ",
+                                "remark": "游戏",
+                                "ename": "Metroid Prime 4 Beyond",
+                                "top": 1000
+                            }
                         }
-                    }]
+                    ]
                 },
                 {
                     "phase_name": "amiibo",
                     "phase_order": 2,
-                    "operations": [{
-                        "operation_type": "insert_amiibo",
-                        "data": {
-                            "id": "05c00000043b1302",
-                            "name": "Samus",
-                            "amiiboSeries": "Metroid series",
-                            "gameSeries": "Metroid series",
-                            "type": "figure",
-                            "image": "1",
-                            "notes": "1",
-                            "scaned": 0,
-                            "cname": "Samus",
-                            "haved": 0,
-                            "updateTime": "2025-07-17"
+                    "operations": [
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "05c00000043b1302",
+                                "name": "Samus",
+                                "amiiboSeries": "Metroid series",
+                                "gameSeries": "Metroid series",
+                                "type": "figure",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "Samus",
+                                "haved": 0,
+                                "updateTime": "2025-07-17"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "05c00000043a1302",
+                                "name": "Samus & Vi-O-La",
+                                "amiiboSeries": "Metroid series",
+                                "gameSeries": "Metroid series",
+                                "type": "figure",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "Samus & Vi-O-La",
+                                "haved": 0,
+                                "updateTime": "2025-07-17"
+                            }
                         }
-                    },
-                    {
-                        "operation_type": "insert_amiibo",
-                        "data": {
-                            "id": "05c00000043a1302",
-                            "name": "Samus & Vi-O-La",
-                            "amiiboSeries": "Metroid series",
-                            "gameSeries": "Metroid series",
-                            "type": "figure",
-                            "image": "1",
-                            "notes": "1",
-                            "scaned": 0,
-                            "cname": "Samus & Vi-O-La",
-                            "haved": 0,
-                            "updateTime": "2025-07-17"
-                        }
-                    }]
+                    ]
                 },
                 {
                     "phase_name": "bindings",
                     "phase_order": 3,
-                    "operations": [{
-                        "operation_type": "insert_binding",
-                        "data": {
-                            "gameId": 55,
-                            "amiiboId": "05c00000043b1302"
+                    "operations": [
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 55,
+                                "amiiboId": "05c00000043b1302"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 55,
+                                "amiiboId": "05c00000043a1302"
+                            }
                         }
-                    },
-                    {
-                        "operation_type": "insert_binding",
-                        "data": {
-                            "gameId": 55,
-                            "amiiboId": "05c00000043a1302"
-                        }
-                    }]
+                    ]
                 }
             ]
-        },
+        }
     ]
 }
