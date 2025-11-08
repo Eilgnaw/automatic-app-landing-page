@@ -1,7 +1,7 @@
- {
-     "latest_version": 11,
-     "min_supported_version": 10,
-     "update_description": "Add Donkey Kong & Pauline",
-     "force_update": false,
-     "release_date": "2025-07-17"
- }
+{
+    "latest_version": 12,
+    "min_supported_version": 10,
+    "update_description": "Add Metroid Prime 4 Beyond",
+    "force_update": false,
+    "release_date": "2025-07-17"
+}

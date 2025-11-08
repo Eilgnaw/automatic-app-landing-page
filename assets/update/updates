@@ -1,9 +1,10 @@
 {
     "config_type": "remote",
-    "current_version": 11,
+    "current_version": 12,
     "min_supported_version": 10,
     "last_updated": "2025-07-17T10:30:00Z",
-    "migrations": [{
+    "migrations": [
+        {
             "from_version": 10,
             "to_version": 11,
             "description": "新增《塞尔达传说：王国之泪》相关 Amiibo 数据",
@@ -55,6 +56,83 @@
                     }]
                 }
             ]
-        }
+        },
+        {
+            "from_version": 11,
+            "to_version": 12,
+            "description": "Added Metroid Prime 4 amiibo",
+            "phases": [
+                {
+                    "phase_name": "games",
+                    "phase_order": 1,
+                    "operations": [{
+                        "operation_type": "insert_game",
+                        "data": {
+                            "id": "55",
+                            "name": "密特罗德究极4 穿越未知",
+                            "image": "",
+                            "note": "Unlock ",
+                            "remark": "游戏",
+                            "ename": "Metroid Prime 4 Beyond",
+                            "top": 1000
+                        }
+                    }]
+                },
+                {
+                    "phase_name": "amiibo",
+                    "phase_order": 2,
+                    "operations": [{
+                        "operation_type": "insert_amiibo",
+                        "data": {
+                            "id": "05c00000043b1302",
+                            "name": "Samus",
+                            "amiiboSeries": "Metroid series",
+                            "gameSeries": "Metroid series",
+                            "type": "figure",
+                            "image": "1",
+                            "notes": "1",
+                            "scaned": 0,
+                            "cname": "Samus",
+                            "haved": 0,
+                            "updateTime": "2025-07-17"
+                        }
+                    },
+                    {
+                        "operation_type": "insert_amiibo",
+                        "data": {
+                            "id": "05c00000043a1302",
+                            "name": "Samus & Vi-O-La",
+                            "amiiboSeries": "Metroid series",
+                            "gameSeries": "Metroid series",
+                            "type": "figure",
+                            "image": "1",
+                            "notes": "1",
+                            "scaned": 0,
+                            "cname": "Samus & Vi-O-La",
+                            "haved": 0,
+                            "updateTime": "2025-07-17"
+                        }
+                    }]
+                },
+                {
+                    "phase_name": "bindings",
+                    "phase_order": 3,
+                    "operations": [{
+                        "operation_type": "insert_binding",
+                        "data": {
+                            "gameId": 55,
+                            "amiiboId": "05c00000043b1302"
+                        }
+                    },
+                    {
+                        "operation_type": "insert_binding",
+                        "data": {
+                            "gameId": 55,
+                            "amiiboId": "05c00000043a1302"
+                        }
+                    }]
+                }
+            ]
+        },
     ]
 }
