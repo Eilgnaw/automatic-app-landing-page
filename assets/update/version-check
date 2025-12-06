@@ -1,7 +1,7 @@
 {
-    "latest_version": 12,
+    "latest_version": 13,
     "min_supported_version": 10,
-    "update_description": "Add Metroid Prime 4 Beyond",
+    "update_description": "Add Metroid Prime 4 Sylux",
     "force_update": false,
-    "release_date": "2025-11-06"
+    "release_date": "2025-12-06"
 }

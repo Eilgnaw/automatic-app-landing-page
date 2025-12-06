@@ -1,6 +1,6 @@
 {
     "config_type": "remote",
-    "current_version": 12,
+    "current_version": 13,
     "min_supported_version": 10,
     "last_updated": "2025-07-17T10:30:00Z",
     "migrations": [
@@ -141,6 +141,48 @@
                             "data": {
                                 "gameId": 55,
                                 "amiiboId": "05c00000043a1302"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "from_version": 12,
+            "to_version": 13,
+            "description": "Added Metroid Prime 4 Sylux amiibo",
+            "phases": [
+                {
+                    "phase_name": "amiibo",
+                    "phase_order": 1,
+                    "operations": [
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "05c50000043c1302",
+                                "name": "Sylux",
+                                "amiiboSeries": "Metroid series",
+                                "gameSeries": "Metroid series",
+                                "type": "figure",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "Sylux",
+                                "haved": 0,
+                                "updateTime": "2025-12-04"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "phase_name": "bindings",
+                    "phase_order": 2,
+                    "operations": [
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 55,
+                                "amiiboId": "05c50000043c1302"
                             }
                         }
                     ]
