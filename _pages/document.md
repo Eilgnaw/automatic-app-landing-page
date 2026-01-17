@@ -4,12 +4,8 @@ title: Document
 include_in_header: true
 ---
 ### [English](https://medium.com/@wzqwzq666/how-to-make-amiibo-with-iphone-in-2022-f0aca6d96b91)
-
-### 斯普拉遁名牌及动森人物卡制作工具 [鱿牌APP](https://splatoon.umiibo.app/)
-### iOS小组件制作工具 [Omni Widgets](https://apps.apple.com/app/id6468910867)
-### 王国之泪地图 [管家魔像](https://apps.apple.com/app/id6450944939)
-
-## 为了更好的使用 APP 请务必仔细阅读以下内容,如果解决不了您的问题请通过APP内提供的联系方式联系解决
+## 为了更好的使用 APP 请务必仔细阅读以下内容,如果解决不了您的问题请添加微信 OmniWidgets 联系解决
+## 为了更好的使用 APP 请务必仔细阅读以下内容,如果解决不了您的问题请添加微信 OmniWidgets 联系解决
 #### 怎么导入数据文件并制作 amiibo?
 - 数据请通过**百度,谷歌,小红书,b站,淘宝白卡卖家**获取
 - 如果使用的 Ntag215 卡请点击左边**NFC图标**按钮进行写入(默认为右侧蓝牙写入)
@@ -45,3 +41,7 @@ include_in_header: true
 
 #### 怎么删除已有数据?
 - 长按 数据库 下方图标进行清空数据.
+
+### 斯普拉遁名牌及动森人物卡制作工具 [鱿牌APP](https://splatoon.umiibo.app/)
+### iOS小组件制作工具 [Omni Widgets](https://apps.apple.com/app/id6468910867)
+### 王国之泪地图 [管家魔像](https://apps.apple.com/app/id6450944939)
