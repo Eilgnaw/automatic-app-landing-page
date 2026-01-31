@@ -88,7 +88,6 @@ Welcome to Omni Widgets (hereinafter referred to as "the App"). We take your pri
 
 #### 2.1 Information We Collect
 
-- **Device Information**: Device model and OS version for app compatibility optimization
 - **Location Information**: Only when authorized by you for weather widget functionality; not uploaded to our servers
 - **Purchase Information**: Subscription and purchase records processed through Apple App Store and RevenueCat
 
