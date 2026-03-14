@@ -1,7 +1,7 @@
 {
-    "latest_version": 13,
+    "latest_version": 14,
     "min_supported_version": 10,
-    "update_description": "Add Metroid Prime 4 Sylux",
+    "update_description": "Add Monster Hunter Stories 3",
     "force_update": false,
-    "release_date": "2025-12-06"
+    "release_date": "2025-03-15"
 }

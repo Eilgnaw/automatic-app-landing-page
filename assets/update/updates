@@ -1,6 +1,6 @@
 {
     "config_type": "remote",
-    "current_version": 13,
+    "current_version": 14,
     "min_supported_version": 10,
     "last_updated": "2025-07-17T10:30:00Z",
     "migrations": [
@@ -183,6 +183,112 @@
                             "data": {
                                 "gameId": 55,
                                 "amiiboId": "05c50000043c1302"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "from_version": 13,
+            "to_version": 14,
+            "description": "Add Monster Hunter Stories 3",
+            "phases": [
+                {
+                    "phase_name": "games",
+                    "phase_order": 1,
+                    "operations": [
+                        {
+                            "operation_type": "insert_game",
+                            "data": {
+                                "id": "56",
+                                "name": "怪物猎人物语3",
+                                "image": "",
+                                "note": "Unlock ",
+                                "remark": "游戏",
+                                "ename": "Monster Hunter Stories 3",
+                                "top": 1000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "phase_name": "amiibo",
+                    "phase_order": 2,
+                    "operations": [
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "350e000004fc0f02",
+                                "name": "Rudy",
+                                "amiiboSeries": "Monster Hunter Stories",
+                                "gameSeries": "Monster Hunter Stories",
+                                "type": "figure",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "Rudy",
+                                "haved": 0,
+                                "updateTime": "2026-03-13"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "350c000004fa0f02",
+                                "name": "Ratha",
+                                "amiiboSeries": "Monster Hunter Stories",
+                                "gameSeries": "Monster Hunter Stories",
+                                "type": "figure",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "Ratha",
+                                "haved": 0,
+                                "updateTime": "2026-03-13"
+                            }
+                        },
+                         {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "350d000004fb0f02",
+                                "name": "Ratha V",
+                                "amiiboSeries": "Monster Hunter Stories",
+                                "gameSeries": "Monster Hunter Stories",
+                                "type": "figure",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "Ratha V",
+                                "haved": 0,
+                                "updateTime": "2026-03-13"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "phase_name": "bindings",
+                    "phase_order": 3,
+                    "operations": [
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 56,
+                                "amiiboId": "350e000004fc0f02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 56,
+                                "amiiboId": "350c000004fa0f02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 56,
+                                "amiiboId": "350d000004fb0f02"
                             }
                         }
                     ]
