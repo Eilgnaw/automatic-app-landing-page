@@ -1,7 +1,7 @@
 {
-    "latest_version": 14,
+    "latest_version": 15,
     "min_supported_version": 10,
-    "update_description": "Add Monster Hunter Stories 3",
+    "update_description": "Add Super Mario Bros. Wonder",
     "force_update": false,
-    "release_date": "2025-03-15"
+    "release_date": "2025-03-26"
 }

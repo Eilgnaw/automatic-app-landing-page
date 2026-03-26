@@ -1,6 +1,6 @@
 {
     "config_type": "remote",
-    "current_version": 14,
+    "current_version": 15,
     "min_supported_version": 10,
     "last_updated": "2025-07-17T10:30:00Z",
     "migrations": [
@@ -248,7 +248,7 @@
                                 "updateTime": "2026-03-13"
                             }
                         },
-                         {
+                        {
                             "operation_type": "insert_amiibo",
                             "data": {
                                 "id": "350d000004fb0f02",
@@ -289,6 +289,112 @@
                             "data": {
                                 "gameId": 56,
                                 "amiiboId": "350d000004fb0f02"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "from_version": 14,
+            "to_version": 15,
+            "description": "Add Super Mario Bros. Wonder",
+            "phases": [
+                {
+                    "phase_name": "games",
+                    "phase_order": 1,
+                    "operations": [
+                        {
+                            "operation_type": "insert_game",
+                            "data": {
+                                "id": "57",
+                                "name": "超级马力欧兄弟 惊奇",
+                                "image": "",
+                                "note": "Unlock ",
+                                "remark": "游戏",
+                                "ename": "Add Super Mario Bros. Wonder",
+                                "top": 1000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "phase_name": "amiibo",
+                    "phase_order": 2,
+                    "operations": [
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "000a010004c20102",
+                                "name": "Captain Toad & Talking Flower",
+                                "amiiboSeries": "Super Mario series",
+                                "gameSeries": "Super Mario series",
+                                "type": "figure",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "奇诺比奥队长与闲谈花花",
+                                "haved": 0,
+                                "updateTime": "2026-03-26"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "0025010004c30102",
+                                "name": "Poplin & Prince Florian",
+                                "amiiboSeries": "Super Mario series",
+                                "gameSeries": "Super Mario series",
+                                "type": "figure",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "波普林与弗洛里安王子",
+                                "haved": 0,
+                                "updateTime": "2026-03-26"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "0000040004c10102",
+                                "name": "Elephant Mario",
+                                "amiiboSeries": "Super Mario series",
+                                "gameSeries": "Super Mario series",
+                                "type": "figure",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "大象马力欧",
+                                "haved": 0,
+                                "updateTime": "2026-03-26"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "phase_name": "bindings",
+                    "phase_order": 3,
+                    "operations": [
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 57,
+                                "amiiboId": "000a010004c20102"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 57,
+                                "amiiboId": "0025010004c30102"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 57,
+                                "amiiboId": "0000040004c10102"
                             }
                         }
                     ]
