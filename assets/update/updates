@@ -1,6 +1,6 @@
 {
     "config_type": "remote",
-    "current_version": 15,
+    "current_version": 16,
     "min_supported_version": 10,
     "last_updated": "2025-07-17T10:30:00Z",
     "migrations": [
@@ -395,6 +395,89 @@
                             "data": {
                                 "gameId": 57,
                                 "amiiboId": "0000040004c10102"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "from_version": 15,
+            "to_version": 16,
+            "description": "Super Mario Galaxy",
+            "phases": [
+                {
+                    "phase_name": "games",
+                    "phase_order": 1,
+                    "operations": [
+                        {
+                            "operation_type": "insert_game",
+                            "data": {
+                                "id": "58",
+                                "name": "超级马力欧 银河",
+                                "image": "",
+                                "note": "Unlock ",
+                                "remark": "游戏",
+                                "ename": "Super Mario Galaxy",
+                                "top": 1000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "phase_name": "amiibo",
+                    "phase_order": 2,
+                    "operations": [
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "0000050004e90102",
+                                "name": "Mario and Luma",
+                                "amiiboSeries": "Super Mario series",
+                                "gameSeries": "Super Mario series",
+                                "type": "figure",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "马力欧和星星宝宝",
+                                "haved": 0,
+                                "updateTime": "2026-04-02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "0004010004ea0102",
+                                "name": "Rosalina and Lumas",
+                                "amiiboSeries": "Super Mario series",
+                                "gameSeries": "Super Mario series",
+                                "type": "figure",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "罗洁塔和星星宝宝",
+                                "haved": 0,
+                                "updateTime": "2026-04-02"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "phase_name": "bindings",
+                    "phase_order": 3,
+                    "operations": [
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 58,
+                                "amiiboId": "0000050004e90102"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 58,
+                                "amiiboId": "0004010004ea0102"
                             }
                         }
                     ]

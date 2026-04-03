@@ -1,7 +1,7 @@
 {
-    "latest_version": 15,
+    "latest_version": 16,
     "min_supported_version": 10,
-    "update_description": "Add Super Mario Bros. Wonder",
+    "update_description": "Super Mario Galaxy",
     "force_update": false,
-    "release_date": "2025-03-26"
+    "release_date": "2025-04-02"
 }
