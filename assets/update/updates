@@ -1,6 +1,6 @@
 {
     "config_type": "remote",
-    "current_version": 16,
+    "current_version": 17,
     "min_supported_version": 10,
     "last_updated": "2025-07-17T10:30:00Z",
     "migrations": [
@@ -478,6 +478,66 @@
                             "data": {
                                 "gameId": 58,
                                 "amiiboId": "0004010004ea0102"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "from_version": 16,
+            "to_version": 17,
+            "description": "Pragmata",
+            "phases": [
+                {
+                    "phase_name": "games",
+                    "phase_order": 1,
+                    "operations": [
+                        {
+                            "operation_type": "insert_game",
+                            "data": {
+                                "id": "59",
+                                "name": "识质存在",
+                                "image": "",
+                                "note": "Unlock ",
+                                "remark": "游戏",
+                                "ename": "Pragmata",
+                                "top": 1000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "phase_name": "amiibo",
+                    "phase_order": 2,
+                    "operations": [
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "3580000005062102",
+                                "name": "Diana",
+                                "amiiboSeries": "Pragmata series",
+                                "gameSeries": "Pragmata series",
+                                "type": "figure",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "戴安娜",
+                                "haved": 0,
+                                "updateTime": "2026-04-23"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "phase_name": "bindings",
+                    "phase_order": 3,
+                    "operations": [
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 59,
+                                "amiiboId": "3580000005062102"
                             }
                         }
                     ]
