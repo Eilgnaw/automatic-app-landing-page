@@ -1,8 +1,8 @@
 {
     "config_type": "remote",
-    "current_version": 17,
+    "current_version": 18,
     "min_supported_version": 10,
-    "last_updated": "2025-07-17T10:30:00Z",
+    "last_updated": "2025-07-23T08:24:00Z",
     "migrations": [
         {
             "from_version": 10,
@@ -538,6 +538,112 @@
                             "data": {
                                 "gameId": 59,
                                 "amiiboId": "3580000005062102"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "from_version": 17,
+            "to_version": 18,
+            "description": "Raiders",
+            "phases": [
+                {
+                    "phase_name": "games",
+                    "phase_order": 1,
+                    "operations": [
+                        {
+                            "operation_type": "insert_game",
+                            "data": {
+                                "id": "60",
+                                "name": "斯普拉遁͏ 涂击队",
+                                "image": "",
+                                "note": "Unlock ",
+                                "remark": "游戏",
+                                "ename": "Splatoon Raiders",
+                                "top": 1000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "phase_name": "amiibo",
+                    "phase_order": 2,
+                    "operations": [
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "0809000004f90402",
+                                "name": "Big Man (Raiders)",
+                                "cname": "鬼福 (涂击队)",
+                                "updateTime": "2026-07-23",
+                                "amiiboSeries": "Splatoon series",
+                                "gameSeries": "Splatoon series",
+                                "type": "figure",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "haved": 0
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "0808000004f80402",
+                                "name": "Frye (Raiders)",
+                                "cname": "曼曼 (涂击队)",
+                                "updateTime": "2026-07-23",
+                                "amiiboSeries": "Splatoon series",
+                                "gameSeries": "Splatoon series",
+                                "type": "figure",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "haved": 0
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "0807000004f70402",
+                                "name": "Shiver (Raiders)",
+                                "cname": "莎莎  (涂击队)",
+                                "updateTime": "2026-07-23",
+                                "amiiboSeries": "Splatoon series",
+                                "gameSeries": "Splatoon series",
+                                "type": "figure",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "haved": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "phase_name": "bindings",
+                    "phase_order": 3,
+                    "operations": [
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 60,
+                                "amiiboId": "0809000004f90402"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 60,
+                                "amiiboId": "0807000004f70402"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 60,
+                                "amiiboId": "0808000004f80402"
                             }
                         }
                     ]

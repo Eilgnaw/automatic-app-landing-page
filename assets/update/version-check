@@ -1,7 +1,7 @@
 {
-    "latest_version": 17,
+    "latest_version": 18,
     "min_supported_version": 10,
-    "update_description": "Super Mario Galaxy",
+    "update_description": "Splatoon Raiders",
     "force_update": false,
-    "release_date": "2026-04-23"
+    "release_date": "2026-07-23"
 }
