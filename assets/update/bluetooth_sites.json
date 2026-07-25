@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "sites": [
+    {
+      "id": "mochi",
+      "enabled": true,
+      "sort_order": 20,
+      "name": {
+        "zh-Hans": "Mochi",
+        "zh-Hant": "Mochi",
+        "en": "Mochi"
+      },
+      "description": {
+        "zh-Hans": "通过 Web Bluetooth 管理兼容设备上的 Amiibo 文件",
+        "zh-Hant": "透過 Web Bluetooth 管理相容裝置上的 Amiibo 檔案",
+        "en": "Manage Amiibo files on compatible devices with Web Bluetooth"
+      },
+      "url": "https://tasken.github.io/Mochi/",
+      "icon_url": null,
+      "allowed_origins": [
+        "https://tasken.github.io"
+      ]
+    },
+    {
+      "id": "amiibolink-amiloop",
+      "enabled": true,
+      "sort_order": 10,
+      "name": {
+        "zh-Hans": "AmiiboLink / AmiLoop",
+        "zh-Hant": "AmiiboLink / AmiLoop",
+        "en": "AmiiboLink / AmiLoop"
+      },
+      "description": {
+        "zh-Hans": "通过 Web Bluetooth 连接并控制 AmiiboLink 或 AmiLoop",
+        "zh-Hant": "透過 Web Bluetooth 連接並控制 AmiiboLink 或 AmiLoop",
+        "en": "Connect and control AmiiboLink or AmiLoop with Web Bluetooth"
+      },
+      "url": "https://dantheman827.github.io/amiibolink-amiloop-webbluetooth/",
+      "icon_url": null,
+      "allowed_origins": [
+        "https://dantheman827.github.io"
+      ]
+    }
+  ]
+}
