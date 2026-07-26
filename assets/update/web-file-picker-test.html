@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Umiibo 文件选择测试</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      font-family:
+        system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: Canvas;
+      color: CanvasText;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 16px 64px;
+    }
+
+    h1 {
+      margin-bottom: 8px;
+      font-size: clamp(24px, 6vw, 36px);
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .intro,
+    .environment,
+    .notice {
+      color: color-mix(in srgb, CanvasText 72%, transparent);
+      line-height: 1.6;
+    }
+
+    .environment {
+      padding: 12px;
+      overflow-wrap: anywhere;
+      border: 1px solid color-mix(in srgb, CanvasText 18%, transparent);
+      border-radius: 12px;
+      background: color-mix(in srgb, CanvasText 4%, transparent);
+    }
+
+    .test-card {
+      margin-top: 18px;
+      padding: 18px;
+      border: 1px solid color-mix(in srgb, CanvasText 18%, transparent);
+      border-radius: 16px;
+      box-shadow: 0 3px 14px color-mix(in srgb, CanvasText 8%, transparent);
+    }
+
+    .test-card p {
+      line-height: 1.6;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 14px 0;
+    }
+
+    button {
+      min-height: 44px;
+      padding: 10px 16px;
+      border: 0;
+      border-radius: 999px;
+      font: inherit;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .primary {
+      color: white;
+      background: #6750a4;
+    }
+
+    .secondary {
+      color: CanvasText;
+      background: color-mix(in srgb, CanvasText 10%, transparent);
+    }
+
+    .result {
+      min-height: 72px;
+      padding: 12px;
+      overflow-x: auto;
+      border-radius: 12px;
+      background: color-mix(in srgb, CanvasText 6%, transparent);
+    }
+
+    .result.empty {
+      display: grid;
+      place-items: center;
+      color: color-mix(in srgb, CanvasText 55%, transparent);
+    }
+
+    .summary {
+      margin-bottom: 12px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid color-mix(in srgb, CanvasText 14%, transparent);
+      font-weight: 700;
+    }
+
+    .success {
+      color: #17833b;
+    }
+
+    .error {
+      color: #ba1a1a;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    th,
+    td {
+      padding: 8px;
+      border-bottom: 1px solid color-mix(in srgb, CanvasText 12%, transparent);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      white-space: nowrap;
+    }
+
+    code {
+      overflow-wrap: anywhere;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+
+    details {
+      margin-top: 18px;
+    }
+
+    input[type="file"] {
+      position: fixed;
+      left: -10000px;
+      width: 1px;
+      height: 1px;
+      opacity: 0;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Umiibo 文件选择测试</h1>
+    <p class="intro">
+      请依次测试单文件、普通多文件和文件夹。第三项在 Umiibo 内置浏览器中应显示游戏分类，
+      选择后一次返回该分类下的全部 Amiibo 数据。
+    </p>
+
+    <div class="environment" id="environment"></div>
+
+    <section class="test-card">
+      <h2>1. 选择单个文件</h2>
+      <p>预期：显示普通文件来源选择界面，最终只返回一个文件。</p>
+      <div class="actions">
+        <button class="primary" type="button" data-picker="singleInput">
+          选择单个文件
+        </button>
+        <button class="secondary" type="button" data-clear="singleInput">
+          清除结果
+        </button>
+      </div>
+      <input
+        id="singleInput"
+        type="file"
+        accept=".bin,application/octet-stream"
+      >
+      <div class="result empty" id="singleResult">尚未选择文件</div>
+    </section>
+
+    <section class="test-card">
+      <h2>2. 选择普通多文件</h2>
+      <p>
+        预期：仍显示普通文件来源选择界面，不应误进入游戏分类。可一次选择一个或多个文件。
+      </p>
+      <div class="actions">
+        <button class="primary" type="button" data-picker="multipleInput">
+          选择多个文件
+        </button>
+        <button class="secondary" type="button" data-clear="multipleInput">
+          清除结果
+        </button>
+      </div>
+      <input
+        id="multipleInput"
+        type="file"
+        accept=".bin,application/octet-stream"
+        multiple
+      >
+      <div class="result empty" id="multipleResult">尚未选择文件</div>
+    </section>
+
+    <section class="test-card">
+      <h2>3. 选择文件夹</h2>
+      <p>
+        预期：Umiibo 显示游戏分类。选择并确认后，网页收到该分类下的全部
+        <code>.bin</code> 文件。
+      </p>
+      <div class="actions">
+        <button class="primary" type="button" data-picker="folderInput">
+          选择文件夹
+        </button>
+        <button class="secondary" type="button" data-clear="folderInput">
+          清除结果
+        </button>
+      </div>
+      <input
+        id="folderInput"
+        type="file"
+        accept=".bin"
+        multiple
+        webkitdirectory
+        directory
+      >
+      <div class="result empty" id="folderResult">尚未选择文件夹</div>
+      <p class="notice">
+        Umiibo 应把所选游戏分类作为目录名，因此每个文件的
+        <code>webkitRelativePath</code> 应为“游戏分类/文件名.bin”。
+      </p>
+    </section>
+
+    <details>
+      <summary>测试判断标准</summary>
+      <ul>
+        <li>单文件：文件数量必须为 1，网页能读取文件内容。</li>
+        <li>普通多文件：不能弹出游戏分类选择页。</li>
+        <li>文件夹：应弹出游戏分类页，并返回所选分类的全部数据。</li>
+        <li>每个文件会显示大小、前 32 字节和 SHA-256；常见 Amiibo 数据大小为 540 字节。</li>
+      </ul>
+    </details>
+  </main>
+
+  <script>
+    "use strict";
+
+    const testCases = {
+      singleInput: {
+        resultId: "singleResult",
+        expected: (files) => files.length === 1,
+        successText: "单文件选择成功",
+        failureText: "预期返回 1 个文件",
+      },
+      multipleInput: {
+        resultId: "multipleResult",
+        expected: (files) => files.length >= 1,
+        successText: "普通多文件选择成功",
+        failureText: "没有收到文件",
+      },
+      folderInput: {
+        resultId: "folderResult",
+        expected: (files) =>
+          files.length >= 1 &&
+          files.every((file) => file.webkitRelativePath.includes("/")),
+        successText: "文件夹名和批量文件均返回成功",
+        failureText: "没有收到文件夹名或分类文件",
+      },
+    };
+
+    const environment = document.getElementById("environment");
+    environment.textContent =
+      `地址：${location.href}\n` +
+      `安全上下文：${window.isSecureContext ? "是" : "否"}\n` +
+      `浏览器：${navigator.userAgent}`;
+    environment.style.whiteSpace = "pre-wrap";
+
+    document.querySelectorAll("[data-picker]").forEach((button) => {
+      button.addEventListener("click", () => {
+        document.getElementById(button.dataset.picker).click();
+      });
+    });
+
+    document.querySelectorAll("[data-clear]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const input = document.getElementById(button.dataset.clear);
+        input.value = "";
+        showEmptyResult(input);
+      });
+    });
+
+    Object.keys(testCases).forEach((inputId) => {
+      const input = document.getElementById(inputId);
+      input.addEventListener("change", () => inspectSelection(input));
+      input.addEventListener("cancel", () => {
+        const result = document.getElementById(testCases[inputId].resultId);
+        result.className = "result empty";
+        result.textContent = "用户取消了选择";
+      });
+    });
+
+    function showEmptyResult(input) {
+      const result = document.getElementById(testCases[input.id].resultId);
+      result.className = "result empty";
+      result.textContent = "尚未选择";
+    }
+
+    async function inspectSelection(input) {
+      const config = testCases[input.id];
+      const result = document.getElementById(config.resultId);
+      const files = Array.from(input.files || []);
+
+      result.className = "result";
+      result.replaceChildren();
+
+      const summary = document.createElement("div");
+      const passed = config.expected(files);
+      const folderNames = new Set(
+        files
+          .map((file) => file.webkitRelativePath.split("/")[0])
+          .filter(Boolean),
+      );
+      summary.className = `summary ${passed ? "success" : "error"}`;
+      summary.textContent =
+        `${passed ? config.successText : config.failureText}；` +
+        `收到 ${files.length} 个文件；` +
+        `文件夹=${[...folderNames].join(", ") || "（无）"}；` +
+        `accept="${input.accept}"`;
+      result.appendChild(summary);
+
+      if (files.length === 0) {
+        return;
+      }
+
+      const table = document.createElement("table");
+      table.innerHTML = `
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>文件</th>
+            <th>大小</th>
+            <th>MIME</th>
+            <th>相对路径</th>
+            <th>SHA-256</th>
+            <th>前 32 字节</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      `;
+      result.appendChild(table);
+
+      const tbody = table.querySelector("tbody");
+      for (const [index, file] of files.entries()) {
+        const row = document.createElement("tr");
+        const details = await inspectFile(file);
+        appendCell(row, String(index + 1));
+        appendCodeCell(row, file.name);
+        appendCell(row, `${file.size} B`);
+        appendCodeCell(row, file.type || "（空）");
+        appendCodeCell(row, file.webkitRelativePath || "（空）");
+        appendCodeCell(row, details.sha256);
+        appendCodeCell(row, details.preview);
+        tbody.appendChild(row);
+      }
+    }
+
+    async function inspectFile(file) {
+      try {
+        const bytes = new Uint8Array(await file.arrayBuffer());
+        const preview = Array.from(bytes.slice(0, 32))
+          .map((value) => value.toString(16).padStart(2, "0"))
+          .join(" ");
+        return {
+          preview: preview || "（空文件）",
+          sha256: await sha256(bytes),
+        };
+      } catch (error) {
+        return {
+          preview: `读取失败：${error}`,
+          sha256: "读取失败",
+        };
+      }
+    }
+
+    async function sha256(bytes) {
+      if (!window.crypto?.subtle) {
+        return "当前地址不是安全上下文，无法计算";
+      }
+      const digest = await crypto.subtle.digest("SHA-256", bytes);
+      return Array.from(new Uint8Array(digest))
+        .map((value) => value.toString(16).padStart(2, "0"))
+        .join("");
+    }
+
+    function appendCell(row, value) {
+      const cell = document.createElement("td");
+      cell.textContent = value;
+      row.appendChild(cell);
+    }
+
+    function appendCodeCell(row, value) {
+      const cell = document.createElement("td");
+      const code = document.createElement("code");
+      code.textContent = value;
+      cell.appendChild(code);
+      row.appendChild(cell);
+    }
+  </script>
+</body>
+</html>
