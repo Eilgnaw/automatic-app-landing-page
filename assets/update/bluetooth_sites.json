@@ -2,6 +2,26 @@
   "version": 1,
   "sites": [
     {
+      "id": "test",
+      "enabled": true,
+      "sort_order": 20,
+      "name": {
+        "zh-Hans": "Test",
+        "zh-Hant": "Test",
+        "en": "Test"
+      },
+      "description": {
+        "zh-Hans": "test file page",
+        "zh-Hant": "test file page",
+        "en": "test file page"
+      },
+      "url": "https://image.umiibo.app/assets/update/web-file-picker-test.html",
+      "icon_url": null,
+      "allowed_origins": [
+        "https://image.umiibo.app"
+      ]
+    },
+    {
       "id": "mochi",
       "enabled": true,
       "sort_order": 20,
