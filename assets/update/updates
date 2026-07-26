@@ -1,6 +1,6 @@
 {
     "config_type": "remote",
-    "current_version": 18,
+    "current_version": 19,
     "min_supported_version": 10,
     "last_updated": "2025-07-23T08:24:00Z",
     "migrations": [
@@ -644,6 +644,899 @@
                             "data": {
                                 "gameId": 60,
                                 "amiiboId": "0808000004f80402"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "from_version": 18,
+            "to_version": 19,
+            "description": "Add Street Fighter 6 amiibo cards",
+            "phases": [
+                {
+                    "phase_name": "amiibo",
+                    "phase_order": 1,
+                    "operations": [
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34d6000104e11d02",
+                                "name": "M. Bison",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "维加",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "3c80000104e81d02",
+                                "name": "Terry",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "特瑞",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "3c81000104f21d02",
+                                "name": "Mai",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "不知火舞",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34d8000104e31d02",
+                                "name": "Elena",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "艾莲娜",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34d9000104e41d02",
+                                "name": "Sagat",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "沙加特",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34da000104e51d02",
+                                "name": "C. Viper",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "深红毒蛇",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34db000104e61d02",
+                                "name": "Alex",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "亚历克斯",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34dc000104e71d02",
+                                "name": "Ingrid",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "英格丽德",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34c2000104cd1d02",
+                                "name": "Luke",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "卢克",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34c3000104ce1d02",
+                                "name": "Jamie",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "杰米",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34cc000104d71d02",
+                                "name": "Manon",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "玛濃",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34c4000104cf1d02",
+                                "name": "Kimberly",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "金柏莉",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34cd000104d81d02",
+                                "name": "Marisa",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "玛丽莎",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34d0000104db1d02",
+                                "name": "Lily",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "莉莉",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34ce000104d91d02",
+                                "name": "JP",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "JP",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34c7000104d21d02",
+                                "name": "Juri",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "茱莉",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34cb000104d61d02",
+                                "name": "Dee Jay",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "迪·杰",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34d1000104dc1d02",
+                                "name": "Cammy",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "嘉米",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34c0000104cb1d02",
+                                "name": "Ryu",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "隆",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34ca000104d51d02",
+                                "name": "E. Honda",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "本田",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34c8000104d31d02",
+                                "name": "Blanka",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "布兰卡",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34c6000104d11d02",
+                                "name": "Guile",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "古烈",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34c1000104cc1d02",
+                                "name": "Ken",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "肯",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34c5000104d01d02",
+                                "name": "Chun-Li",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "春丽",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34cf000104da1d02",
+                                "name": "Zangief",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "尚格",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34c9000104d41d02",
+                                "name": "Dhalsim",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "达尔西姆",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34d2000104dd1d02",
+                                "name": "Rashid",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "拉希德",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34d3000104de1d02",
+                                "name": "A.K.I",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "阿鬼",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34d4000104df1d02",
+                                "name": "Ed",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "爱德",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34d5000104e01d02",
+                                "name": "Akuma",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "豪鬼",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34d6000104eb1d02",
+                                "name": "M. Bison",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "维加",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "3c80000104f11d02",
+                                "name": "Terry",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "特瑞",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "3c81000104f31d02",
+                                "name": "Mai",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "不知火舞",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34d8000104ec1d02",
+                                "name": "Elena",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "艾莲娜",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34d9000104ed1d02",
+                                "name": "Sagat",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "沙加特",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34da000104ee1d02",
+                                "name": "C. Viper",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "深红毒蛇",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34db000104ef1d02",
+                                "name": "Alex",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "亚历克斯",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "34dc000104f01d02",
+                                "name": "Ingrid",
+                                "amiiboSeries": "Street Fighter",
+                                "gameSeries": "Street Fighter 6",
+                                "type": "card",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "英格丽德",
+                                "haved": 0,
+                                "updateTime": "2025-09-30"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "phase_name": "bindings",
+                    "phase_order": 2,
+                    "operations": [
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34d6000104e11d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "3c80000104e81d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "3c81000104f21d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34d8000104e31d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34d9000104e41d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34da000104e51d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34db000104e61d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34dc000104e71d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34c2000104cd1d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34c3000104ce1d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34cc000104d71d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34c4000104cf1d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34cd000104d81d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34d0000104db1d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34ce000104d91d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34c7000104d21d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34cb000104d61d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34d1000104dc1d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34c0000104cb1d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34ca000104d51d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34c8000104d31d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34c6000104d11d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34c1000104cc1d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34c5000104d01d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34cf000104da1d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34c9000104d41d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34d2000104dd1d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34d3000104de1d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34d4000104df1d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34d5000104e01d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34d6000104eb1d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "3c80000104f11d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "3c81000104f31d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34d8000104ec1d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34d9000104ed1d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34da000104ee1d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34db000104ef1d02"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 52,
+                                "amiiboId": "34dc000104f01d02"
                             }
                         }
                     ]
