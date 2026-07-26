@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Umiibo 文件选择测试</title>
+  <title>Umiibo File Picker Test</title>
   <style>
     :root {
       color-scheme: light dark;
@@ -154,23 +154,24 @@
 </head>
 <body>
   <main>
-    <h1>Umiibo 文件选择测试</h1>
+    <h1>Umiibo File Picker Test</h1>
     <p class="intro">
-      请依次测试单文件、普通多文件和文件夹。第三项在 Umiibo 内置浏览器中应显示游戏分类，
-      选择后一次返回该分类下的全部 Amiibo 数据。
+      Test single-file, regular multi-file, and folder selection in order.
+      The third test should display game categories in the Umiibo built-in
+      browser and return all Amiibo data in the selected category at once.
     </p>
 
     <div class="environment" id="environment"></div>
 
     <section class="test-card">
-      <h2>1. 选择单个文件</h2>
-      <p>预期：显示普通文件来源选择界面，最终只返回一个文件。</p>
+      <h2>1. Select a Single File</h2>
+      <p>Expected: the regular file source picker appears and returns exactly one file.</p>
       <div class="actions">
         <button class="primary" type="button" data-picker="singleInput">
-          选择单个文件
+          Select One File
         </button>
         <button class="secondary" type="button" data-clear="singleInput">
-          清除结果
+          Clear Result
         </button>
       </div>
       <input
@@ -178,20 +179,21 @@
         type="file"
         accept=".bin,application/octet-stream"
       >
-      <div class="result empty" id="singleResult">尚未选择文件</div>
+      <div class="result empty" id="singleResult">No file selected</div>
     </section>
 
     <section class="test-card">
-      <h2>2. 选择普通多文件</h2>
+      <h2>2. Select Multiple Files</h2>
       <p>
-        预期：仍显示普通文件来源选择界面，不应误进入游戏分类。可一次选择一个或多个文件。
+        Expected: the regular file source picker still appears and does not
+        open game categories. One or more files may be selected at once.
       </p>
       <div class="actions">
         <button class="primary" type="button" data-picker="multipleInput">
-          选择多个文件
+          Select Multiple Files
         </button>
         <button class="secondary" type="button" data-clear="multipleInput">
-          清除结果
+          Clear Result
         </button>
       </div>
       <input
@@ -200,21 +202,22 @@
         accept=".bin,application/octet-stream"
         multiple
       >
-      <div class="result empty" id="multipleResult">尚未选择文件</div>
+      <div class="result empty" id="multipleResult">No files selected</div>
     </section>
 
     <section class="test-card">
-      <h2>3. 选择文件夹</h2>
+      <h2>3. Select a Folder</h2>
       <p>
-        预期：Umiibo 显示游戏分类。选择并确认后，网页收到该分类下的全部
-        <code>.bin</code> 文件。
+        Expected: Umiibo displays game categories. After selecting and
+        confirming a category, the page receives all of its
+        <code>.bin</code> files.
       </p>
       <div class="actions">
         <button class="primary" type="button" data-picker="folderInput">
-          选择文件夹
+          Select a Folder
         </button>
         <button class="secondary" type="button" data-clear="folderInput">
-          清除结果
+          Clear Result
         </button>
       </div>
       <input
@@ -225,20 +228,21 @@
         webkitdirectory
         directory
       >
-      <div class="result empty" id="folderResult">尚未选择文件夹</div>
+      <div class="result empty" id="folderResult">No folder selected</div>
       <p class="notice">
-        Umiibo 应把所选游戏分类作为目录名，因此每个文件的
-        <code>webkitRelativePath</code> 应为“游戏分类/文件名.bin”。
+        Umiibo should use the selected game category as the folder name, so
+        each file’s <code>webkitRelativePath</code> should be
+        “Game category/file-name.bin”.
       </p>
     </section>
 
     <details>
-      <summary>测试判断标准</summary>
+      <summary>Test Criteria</summary>
       <ul>
-        <li>单文件：文件数量必须为 1，网页能读取文件内容。</li>
-        <li>普通多文件：不能弹出游戏分类选择页。</li>
-        <li>文件夹：应弹出游戏分类页，并返回所选分类的全部数据。</li>
-        <li>每个文件会显示大小、前 32 字节和 SHA-256；常见 Amiibo 数据大小为 540 字节。</li>
+        <li>Single file: exactly one readable file must be returned.</li>
+        <li>Multiple files: the game category picker must not appear.</li>
+        <li>Folder: the game category picker should return every file in the selected category.</li>
+        <li>Each file displays its size, first 32 bytes, and SHA-256. Amiibo data is commonly 540 bytes.</li>
       </ul>
     </details>
   </main>
@@ -250,30 +254,30 @@
       singleInput: {
         resultId: "singleResult",
         expected: (files) => files.length === 1,
-        successText: "单文件选择成功",
-        failureText: "预期返回 1 个文件",
+        successText: "Single-file selection succeeded",
+        failureText: "Expected exactly one file",
       },
       multipleInput: {
         resultId: "multipleResult",
         expected: (files) => files.length >= 1,
-        successText: "普通多文件选择成功",
-        failureText: "没有收到文件",
+        successText: "Regular multi-file selection succeeded",
+        failureText: "No files were returned",
       },
       folderInput: {
         resultId: "folderResult",
         expected: (files) =>
           files.length >= 1 &&
           files.every((file) => file.webkitRelativePath.includes("/")),
-        successText: "文件夹名和批量文件均返回成功",
-        failureText: "没有收到文件夹名或分类文件",
+        successText: "Folder name and category files were returned successfully",
+        failureText: "The folder name or category files are missing",
       },
     };
 
     const environment = document.getElementById("environment");
     environment.textContent =
-      `地址：${location.href}\n` +
-      `安全上下文：${window.isSecureContext ? "是" : "否"}\n` +
-      `浏览器：${navigator.userAgent}`;
+      `URL: ${location.href}\n` +
+      `Secure context: ${window.isSecureContext ? "Yes" : "No"}\n` +
+      `Browser: ${navigator.userAgent}`;
     environment.style.whiteSpace = "pre-wrap";
 
     document.querySelectorAll("[data-picker]").forEach((button) => {
@@ -296,14 +300,14 @@
       input.addEventListener("cancel", () => {
         const result = document.getElementById(testCases[inputId].resultId);
         result.className = "result empty";
-        result.textContent = "用户取消了选择";
+        result.textContent = "Selection canceled";
       });
     });
 
     function showEmptyResult(input) {
       const result = document.getElementById(testCases[input.id].resultId);
       result.className = "result empty";
-      result.textContent = "尚未选择";
+      result.textContent = "Nothing selected";
     }
 
     async function inspectSelection(input) {
@@ -324,8 +328,8 @@
       summary.className = `summary ${passed ? "success" : "error"}`;
       summary.textContent =
         `${passed ? config.successText : config.failureText}；` +
-        `收到 ${files.length} 个文件；` +
-        `文件夹=${[...folderNames].join(", ") || "（无）"}；` +
+        `Received ${files.length} file(s); ` +
+        `folder=${[...folderNames].join(", ") || "(none)"}; ` +
         `accept="${input.accept}"`;
       result.appendChild(summary);
 
@@ -338,12 +342,12 @@
         <thead>
           <tr>
             <th>#</th>
-            <th>文件</th>
-            <th>大小</th>
+            <th>File</th>
+            <th>Size</th>
             <th>MIME</th>
-            <th>相对路径</th>
+            <th>Relative Path</th>
             <th>SHA-256</th>
-            <th>前 32 字节</th>
+            <th>First 32 Bytes</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -357,8 +361,8 @@
         appendCell(row, String(index + 1));
         appendCodeCell(row, file.name);
         appendCell(row, `${file.size} B`);
-        appendCodeCell(row, file.type || "（空）");
-        appendCodeCell(row, file.webkitRelativePath || "（空）");
+        appendCodeCell(row, file.type || "(empty)");
+        appendCodeCell(row, file.webkitRelativePath || "(empty)");
         appendCodeCell(row, details.sha256);
         appendCodeCell(row, details.preview);
         tbody.appendChild(row);
@@ -372,20 +376,20 @@
           .map((value) => value.toString(16).padStart(2, "0"))
           .join(" ");
         return {
-          preview: preview || "（空文件）",
+          preview: preview || "(empty file)",
           sha256: await sha256(bytes),
         };
       } catch (error) {
         return {
-          preview: `读取失败：${error}`,
-          sha256: "读取失败",
+          preview: `Read failed: ${error}`,
+          sha256: "Read failed",
         };
       }
     }
 
     async function sha256(bytes) {
       if (!window.crypto?.subtle) {
-        return "当前地址不是安全上下文，无法计算";
+        return "Unavailable outside a secure context";
       }
       const digest = await crypto.subtle.digest("SHA-256", bytes);
       return Array.from(new Uint8Array(digest))
