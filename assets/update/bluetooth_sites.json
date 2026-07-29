@@ -3,7 +3,7 @@
   "sites": [
     {
       "id": "test",
-      "enabled": true,
+      "enabled": false,
       "sort_order": 20,
       "name": {
         "zh-Hans": "Test",
@@ -43,7 +43,7 @@
     },
     {
       "id": "amiibolink-amiloop",
-      "enabled": true,
+      "enabled": false,
       "sort_order": 10,
       "name": {
         "zh-Hans": "AmiiboLink / AmiLoop",
