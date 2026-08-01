@@ -1,7 +1,7 @@
 {
-    "latest_version": 19,
+    "latest_version": 20,
     "min_supported_version": 10,
-    "update_description": "Splatoon Raiders",
+    "update_description": "Star Fox and Resident Evil Requiem",
     "force_update": false,
-    "release_date": "2026-07-23"
+    "release_date": "2026-08-01"
 }

@@ -1,8 +1,8 @@
 {
     "config_type": "remote",
-    "current_version": 19,
+    "current_version": 20,
     "min_supported_version": 10,
-    "last_updated": "2025-07-23T08:24:00Z",
+    "last_updated": "2026-08-01T09:20:34Z",
     "migrations": [
         {
             "from_version": 10,
@@ -1537,6 +1537,122 @@
                             "data": {
                                 "gameId": 52,
                                 "amiiboId": "34dc000104f01d02"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "from_version": 19,
+            "to_version": 20,
+            "description": "Add Star Fox and Resident Evil Requiem",
+            "phases": [
+                {
+                    "phase_name": "games",
+                    "phase_order": 1,
+                    "operations": [
+                        {
+                            "operation_type": "insert_game",
+                            "data": {
+                                "id": "61",
+                                "name": "星际火狐",
+                                "image": "",
+                                "note": "解锁玩家资料的专属背景和徽章",
+                                "remark": "游戏",
+                                "ename": "Star Fox",
+                                "top": 1000
+                            }
+                        },
+                        {
+                            "operation_type": "insert_game",
+                            "data": {
+                                "id": "62",
+                                "name": "生化危机：安魂曲",
+                                "image": "",
+                                "note": "解锁游戏内武器的专属外观",
+                                "remark": "游戏",
+                                "ename": "Resident Evil Requiem",
+                                "top": 1000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "phase_name": "amiibo",
+                    "phase_order": 2,
+                    "operations": [
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "3540000005032002",
+                                "name": "Grace Ashcroft",
+                                "amiiboSeries": "Resident Evil series",
+                                "gameSeries": "Resident Evil series",
+                                "type": "figure",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "格蕾丝·阿什克罗夫特",
+                                "haved": 0,
+                                "updateTime": "2026-07-30"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_amiibo",
+                            "data": {
+                                "id": "3541000005042002",
+                                "name": "Leon S. Kennedy",
+                                "amiiboSeries": "Resident Evil series",
+                                "gameSeries": "Resident Evil series",
+                                "type": "figure",
+                                "image": "1",
+                                "notes": "1",
+                                "scaned": 0,
+                                "cname": "里昂·S·肯尼迪",
+                                "haved": 0,
+                                "updateTime": "2026-07-30"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "phase_name": "bindings",
+                    "phase_order": 3,
+                    "operations": [
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 61,
+                                "amiiboId": "0580000000050002"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 61,
+                                "amiiboId": "05810000001c0002"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 61,
+                                "amiiboId": "05840000037e0002"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 62,
+                                "amiiboId": "3540000005032002"
+                            }
+                        },
+                        {
+                            "operation_type": "insert_binding",
+                            "data": {
+                                "gameId": 62,
+                                "amiiboId": "3541000005042002"
                             }
                         }
                     ]
