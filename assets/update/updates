@@ -575,7 +575,7 @@
                             "operation_type": "insert_amiibo",
                             "data": {
                                 "id": "0809000004f90402",
-                                "name": "Big Man (Raiders)",
+                                "name": "Big Man (Splatoon Raiders)",
                                 "cname": "鬼福 (涂击队)",
                                 "updateTime": "2026-07-23",
                                 "amiiboSeries": "Splatoon series",
@@ -591,7 +591,7 @@
                             "operation_type": "insert_amiibo",
                             "data": {
                                 "id": "0808000004f80402",
-                                "name": "Frye (Raiders)",
+                                "name": "Frye (Splatoon Raiders)",
                                 "cname": "曼曼 (涂击队)",
                                 "updateTime": "2026-07-23",
                                 "amiiboSeries": "Splatoon series",
@@ -607,7 +607,7 @@
                             "operation_type": "insert_amiibo",
                             "data": {
                                 "id": "0807000004f70402",
-                                "name": "Shiver (Raiders)",
+                                "name": "Shiver (Splatoon Raiders)",
                                 "cname": "莎莎  (涂击队)",
                                 "updateTime": "2026-07-23",
                                 "amiiboSeries": "Splatoon series",
