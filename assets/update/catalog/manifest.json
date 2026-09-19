@@ -1,7 +1,16 @@
 {
   "schemaVersion": 2,
-  "contentVersion": 20006003100702,
-  "minAppVersionCode": 104,
-  "generatedAt": "2026-08-04T14:58:48Z",
-  "patches": []
+  "contentVersion": 20008004100903,
+  "minSupportedContentVersion": 20008004100902,
+  "generatedAt": "2026-09-19T09:47:00Z",
+  "patches": [
+    {
+      "fromContentVersion": 20008004100902,
+      "toContentVersion": 20008004100903,
+      "url": "catalog-patch-20008004100902-20008004100903.json.gz",
+      "size": 2120,
+      "sha256": "a1c1eae1ab3d447aee8d83cd85233254f98a4f1d9e7c7598c27bc9d8f885aad0",
+      "compression": "gzip"
+    }
+  ]
 }
